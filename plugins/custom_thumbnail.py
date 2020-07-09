@@ -3,7 +3,7 @@
 # (c) Shrimadhav U K
 
 # the logging things
-import logging
+"""import logging
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -138,4 +138,4 @@ async def delete_thumbnail(bot, update):
         chat_id=update.chat.id,
         text=Translation.DEL_ETED_CUSTOM_THUMB_NAIL,
         reply_to_message_id=update.message_id
-    )
+    )"""

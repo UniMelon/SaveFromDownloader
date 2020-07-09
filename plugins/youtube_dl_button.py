@@ -240,7 +240,7 @@ async def youtube_dl_call_back(bot, update):
                     img.resize((90, height))
                 img.save(thumb_image_path, "JPEG")
                 # https://pillow.readthedocs.io/en/3.1.x/reference/Image.html#create-thumbnails
-                
+
             else:
                 thumb_image_path = None
             start_time = time.time()
