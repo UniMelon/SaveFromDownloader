@@ -8,13 +8,14 @@ class Translation(object):
 
 Тех.поддержка: @FominVK, @umelon
 Канал бота: @savefrom_net"""
+    UPGRADE_TEXT = "kek"
     RENAME_403_ERR = "Извините. Вам не разрешено переименовывать этот файл."
     ABS_TEXT = "Пожалуйста, не будьте эгоистичны."
-    ????????????FORMAT_SELECTION = "Выберите нужный формат: <a href='{}'>размер файла может быть приблизительным</a> \n
+    FORMAT_SELECTION = "Выберите нужный формат: <a href='{}'>размер файла может быть приблизительным</a> \n
     If you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """Чтобы скачать премиум-видео, используйте формат:
 URL|название|логин|пароль"""
-    ???????????NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = "Началось скачивание на сервер. Это может занять некоторое время. П"
     UPLOAD_START = "Скачивание завершено. Идет загрузка в бот..."
     RCHD_BOT_API_LIMIT = "размер превышает максимально допустимый размер (50 МБ). Тем не менее, пытается загрузить."
