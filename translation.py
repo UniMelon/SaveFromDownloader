@@ -1,10 +1,11 @@
 class Translation(object):
-    START_TEXT = """SaveFromBOT - это бот, с помощью коротого Вы можете удобно и быстро скачать видео/файл из Интернета!
+    START_TEXT = """
+SaveFromBOT - это бот, с помощью коротого Вы можете удобно и быстро скачать видео/файл из Интернета!
 
-<b>Для начала начала использования отправьте ему ссылку на видео/файл, который хотите скачать и следуйте дальнейшим указаниям.</b>
+<b>Для начала использования отправьте ему ссылку на видео/файл, который хотите скачать и следуйте дальнейшим указаниям.</b>
 
 /available список поддержуемых сайтов
-/help для большей информации..
+/help для дополнительной информации и возможностям..
 
 Тех.поддержка: @FominVK, @umelon
 Канал бота: @savefrom_net"""
@@ -27,7 +28,7 @@ URL|название|логин|пароль"""
     #DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
-    #CUSTOM_CAPTION_UL_FILE = " "
+    CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ОШИБКА...\n<b>YouTubeDL</b>: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
@@ -40,6 +41,12 @@ URL|название|логин|пароль"""
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots"""
+
+
+    AVALILABLE = """
+    Список доступных сайтов можно найти по <a href="http://ytdl-org.github.io/youtube-dl/supportedsites.html">ссылке</a>
+    """
+
 
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
